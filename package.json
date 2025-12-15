@@ -1,0 +1,16 @@
+{
+  "name": "image-to-ino-oled",
+  "version": "1.0.0",
+  "description": "Conversor de imágenes a formato PROGMEM para Arduino OLED",
+  "main": "image-to-arduino.js",
+  "scripts": {
+    "convert": "node image-to-arduino.js",
+    "help": "node image-to-arduino.js --help"
+  },
+  "keywords": ["arduino", "oled", "image", "converter", "progmem"],
+  "author": "Miguel Zamora Rey <miguelzamorarey@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2"
+  }
+}
